@@ -15,4 +15,8 @@ def factorial(n):
         d=d*i
     return d
      
-     
+def even(a):
+    if a%2 ==0:
+        print("even")
+    else:
+        print("odd")
